@@ -129,7 +129,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-karma');
-  grunt.loadNpmTasks('grunt-karma-coveralls');
+  // grunt.loadNpmTasks('grunt-karma-coveralls');
   grunt.loadNpmTasks('grunt-bump');
 
   grunt.registerTask('all', [ 'concat:all', 'uglify:all']);
